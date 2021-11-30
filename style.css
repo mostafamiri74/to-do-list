@@ -1,0 +1,75 @@
+body {
+  background: #edf0f1;
+  margin: auto;
+  max-width: 45em;
+}
+
+header {
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(44, 62, 80, 0.15);
+  background: blueviolet;
+}
+
+header input {
+  color: #fff;
+  text-indent: 1.5rem;
+  padding: 0 60px 0 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px 25px 25px 5px;
+  border: 0;
+  height: 3rem;
+  width: 99%;
+}
+
+header button {
+  border-radius: 25px;
+  background: #fff;
+  border: 0;
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+  margin: -3rem;
+}
+
+.container {
+  padding: 1rem 0;
+}
+
+#todo-list li {
+  background: #fff;
+  padding: 1.5rem 1rem;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.completed {
+  opacity: 0.5;
+}
+
+.buttons {
+  float: right;
+}
+
+.buttons button {
+  cursor: pointer;
+  border: 0.15rem solid transparent;
+  vertical-align: middle;
+  width: 2rem;
+  height: 2rem;
+  transition: background 0.2s ease;
+}
+
+.buttons button.complete {
+  border: 0.1rem solid #228b22;
+}
+
+.buttons button.complete:hover {
+  background: #fff;
+}
+
+.buttons button.remove {
+  background: #c0cecb;
+}
+.buttons button.remove:hover {
+  background: #e85656;
+}
